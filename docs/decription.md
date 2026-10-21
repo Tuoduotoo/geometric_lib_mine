@@ -164,7 +164,9 @@ Example:
     20
 
 # история изменения проекта с хешами комитов (кроме последней записи)
-
+new repository
+* 9b14981 (HEAD -> main) Copy geometric_lib
+old repository
 * * 6aec9a0 (HEAD -> new_features_408526) All fixed
 * 40ab2bc Decription fixed commits
 * 6753daa Decription added
