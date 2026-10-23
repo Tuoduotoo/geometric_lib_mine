@@ -9,13 +9,13 @@ def area(r):
 Площадь круга вычисляется как π * r².
 
 Args:
-    r (float): Радиус круга.
+   * r (float): Радиус круга.
 
 Returns:
-    float: Площадь круга.
+   * float: Площадь круга.
 
 Example:
-    >>> area(1)
+   * >>> area(1)
     3.141592653589793
 
 ### периметр
@@ -27,15 +27,15 @@ def perimeter(r):
 произведение радиуса на число π.
 
 Args:
-    r (float): Радиус круга, должен быть неотрицательным.
+   * r (float): Радиус круга, должен быть неотрицательным.
 
 Returns:
-    float: Длина окружности, выраженная числом с плавающей точкой.
+   * float: Длина окружности, выраженная числом с плавающей точкой.
 
 Example:
-    >>> perimeter(1)
+   * >>> perimeter(1)
     6.283185307179586
-    >>> perimeter(2)
+   * >>> perimeter(2)
     12.566370614359172
 
 ## треугольник 
@@ -48,16 +48,16 @@ def area(a, h):
 S = (a * h) / 2.
 
 Args:
-    a (float): Длина стороны треугольника (основание).
-    h (float): Высота, проведённая к этой стороне.
+   * a (float): Длина стороны треугольника (основание).
+   * h (float): Высота, проведённая к этой стороне.
 
 Returns:
-    float: Площадь треугольника.
+   * float: Площадь треугольника.
 
 Example:
-    >>> area(4, 3)
+   * >>> area(4, 3)
     6.0
-    >>> area(10, 5)
+   * >>> area(10, 5)
     25.0
 
 ### периметр
@@ -68,17 +68,17 @@ def perimeter(a, b, c):
 его сторон: P = a + b + c.
 
 Args:
-    a (float): Длина первой стороны.
-    b (float): Длина второй стороны.
-    c (float): Длина третьей стороны.
+   * a (float): Длина первой стороны.
+   * b (float): Длина второй стороны.
+   * c (float): Длина третьей стороны.
 
 Returns:
-    float: Периметр треугольника.
+   * float: Периметр треугольника.
 
 Example:
-    >>> perimeter(3, 4, 5)
+   * >>> perimeter(3, 4, 5)
     12
-    >>> perimeter(6, 6, 6)
+   * >>> perimeter(6, 6, 6)
     18
 
 ## прямоугольник
@@ -90,16 +90,16 @@ def area(a, b):
 его длины и ширины: S = a * b.
 
 Args:
-    a (float): Длина прямоугольника.
-    b (float): Ширина прямоугольника.
+   * a (float): Длина прямоугольника.
+   * b (float): Ширина прямоугольника.
 
 Returns:
-    float: Площадь прямоугольника.
+   * float: Площадь прямоугольника.
 
 Example:
-    >>> area(2, 3)
+   * >>> area(2, 3)
     6
-    >>> area(5, 4)
+   * >>> area(5, 4)
     20
 
 ### периметр
@@ -110,16 +110,16 @@ def perimeter(a, b):
 сумма его длины и ширины: P = 2 * (a + b).
 
 Args:
-    a (float): Длина прямоугольника.
-    b (float): Ширина прямоугольника.
+   * a (float): Длина прямоугольника.
+   * b (float): Ширина прямоугольника.
 
 Returns:
-    float: Периметр прямоугольника.
+   * float: Периметр прямоугольника.
 
 Example:
-    >>> perimeter(2, 3)
+   * >>> perimeter(2, 3)
     10
-    >>> perimeter(5, 4)
+   * >>> perimeter(5, 4)
     18
 
 ## квадрат
@@ -132,15 +132,15 @@ S = a². Функция принимает сторону и возвращае�
 на саму себя.
 
 Args:
-    a (float): Длина стороны квадрата.
+   * a (float): Длина стороны квадрата.
 
 Returns:
-    float: Площадь квадрата.
+   * float: Площадь квадрата.
 
 Example:
-    >>> area(2)
+   * >>> area(2)
     4
-    >>> area(5)
+   * >>> area(5)
     25
 
 ### периметр
@@ -152,21 +152,21 @@ def perimeter(a):
 возвращает её учётверённое значение.
 
 Args:
-    a (float): Длина стороны квадрата.
+   * a (float): Длина стороны квадрата.
 
 Returns:
-    float: Периметр квадрата.
+   * float: Периметр квадрата.
 
 Example:
-    >>> perimeter(2)
+   * >>> perimeter(2)
     8
-    >>> perimeter(5)
+   * >>> perimeter(5)
     20
 
 # история изменения проекта с хешами комитов (кроме последней записи)
-new repository
+- new repository
 * 9b14981 (HEAD -> main) Copy geometric_lib
-old repository
+- old repository
 * * 6aec9a0 (HEAD -> new_features_408526) All fixed
 * 40ab2bc Decription fixed commits
 * 6753daa Decription added
@@ -178,11 +178,11 @@ old repository
 * a72750e Triangle added and rectangle fixed
 * a9529a9 Triangle added and rectangle fixed
 * f3f9344 Rectangle added
-| * 86edb1c (origin/release) L-05: Update Docs. Add user agreement info
-| * 438b89a L-05: Add user agreement
-| * 6adb962 L-03: Docs added
-| | * 3049431 (origin/feature) L-04: Add rectangle.py
-| |/  
-|/|   
-| | * b5b0fae (origin/develop) L-04: Update docs for calculate.py
-:
+* |  86edb1c (origin/release) L-05: Update Docs. Add user agreement info
+* |  438b89a L-05: Add user agreement
+* |  6adb962 L-03: Docs added
+* | |  3049431 (origin/feature) L-04: Add rectangle.py
+* | |/  
+* |/|   
+* | |  b5b0fae (origin/develop) L-04: Update docs for calculate.py
+* :
