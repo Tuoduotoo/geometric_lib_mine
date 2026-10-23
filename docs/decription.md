@@ -165,8 +165,10 @@ Example:
 
 # история изменения проекта с хешами комитов (кроме последней записи)
 - new repository
-* 6e0fd87 (HEAD -> main) description fixed
-* f3a45ab (origin/main, origin/HEAD) Histori added
+* e32b1c8 (HEAD -> main) bold function
+* 968b7d7 (origin/main, origin/HEAD) history
+* 6e0fd87 description fixed
+* f3a45ab Histori added
 * 9b14981 Copy geometric_lib
 - old repository
 * * 6aec9a0 (HEAD -> new_features_408526) All fixed
